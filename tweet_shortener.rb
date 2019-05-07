@@ -57,7 +57,4 @@ def shortened_tweet_truncator(tweets)
   else
     "#{word_substituter(tweets)}"
   end
- 
-  
-  
 end
