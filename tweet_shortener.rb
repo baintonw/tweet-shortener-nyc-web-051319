@@ -39,3 +39,4 @@ def bulk_tweet_shortener(tweets)
   end.join(" ")
   tweets.join
 end
+
