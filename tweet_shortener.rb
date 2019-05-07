@@ -27,7 +27,7 @@ end
 
 
 def bulk_tweet_shortener(tweets)
-  word_substituter(twit)
+  
   tweets.collect do |twit|
    one_tweet = twit.split(" ")
    one_tweet.collect do |word|
@@ -38,5 +38,6 @@ def bulk_tweet_shortener(tweets)
       end
     end.join(" ")
   end.join(" ")
+  word_substituter(twit)
 end
 
