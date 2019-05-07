@@ -50,7 +50,7 @@ def selective_tweet_shortener(tweets)
     end
 end
 
-def shortened_tweet_truncator(tweets)
+def shortened_tweet_truncator(tweet)
   
   
 end
