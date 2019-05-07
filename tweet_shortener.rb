@@ -29,7 +29,7 @@ def bulk_tweet_shortener(tweets)
   tweets.collect do |twit|
   
    one_tweet = twit.split(" ")
-  puts  "#{one_tweet.collect}" do |word|
+   one_tweet.collect do |word|
       if dictionary.keys.include?(word)
         dictionary[word]
       else
