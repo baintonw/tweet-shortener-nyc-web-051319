@@ -27,7 +27,7 @@ end
 def bulk_tweet_shortener(tweets)
   
   tweets.collect do |twit|
-    binding.pry
+    puts "#{twit}"
    one_tweet = twit.split(" ")
     one_tweet.collect do |word|
       if dictionary.keys.include?(word)
