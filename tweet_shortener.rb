@@ -42,12 +42,10 @@ end
 
 
 def selective_tweet_shortener(tweets)
-  binding.pry
-  tweets.collect do |twit|
-    if tweets. <= 140
-      twit
+  
+    if tweets <= 140
+      tweets
     else
       word_substituter(twit)
     end
-  end.join(" ")
 end
