@@ -42,6 +42,7 @@ end
 
 
 def selective_tweet_shortener(tweets)
+  binding.pry
   tweets.collect do |twit|
     if twit.length <= 140
       twit
