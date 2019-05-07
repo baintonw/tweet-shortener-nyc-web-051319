@@ -37,7 +37,7 @@ def bulk_tweet_shortener(tweets)
         word
       end
     end.join(" ")
-    word_substituter(twit)
+   puts "#{word_substituter(twit)}"
   end.join(" ")
   
 end
