@@ -40,7 +40,6 @@ def selective_tweet_shortener(tweets)
       twit
     else
       word_substituter(twit)
-  
     end
   end
 end
