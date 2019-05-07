@@ -52,7 +52,7 @@ end
 
 def shortened_tweet_truncator(tweets)
   word_substituter(tweets).length
-binding.pry
+
   
   
 end
