@@ -42,7 +42,7 @@ end
 
 
 def selective_tweet_shortener(tweets)
-  binding.pry
+  
     if tweets.length <= 140
       tweets
     else
