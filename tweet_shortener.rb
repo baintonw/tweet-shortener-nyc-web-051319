@@ -26,7 +26,7 @@ end
 
 def bulk_tweet_shortener(tweets)
   
-  twit_puts = tweets.collect do |twit|
+  tweets.collect do |twit|
   
    one_tweet = twit.split(" ")
     one_tweet.collect do |word|
@@ -36,6 +36,5 @@ def bulk_tweet_shortener(tweets)
         word
       end
     end.join(" ")
-  end
-  puts "#{twit_puts.join(" ")}"
+  end.join(" ")
 end
