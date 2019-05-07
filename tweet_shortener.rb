@@ -36,7 +36,7 @@ def bulk_tweet_shortener(tweets)
       word
     end
   end.join(" ")
-end
+end.puts
 
   
 end
